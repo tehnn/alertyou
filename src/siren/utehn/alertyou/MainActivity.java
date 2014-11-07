@@ -112,7 +112,7 @@ public class MainActivity extends ActionBarActivity {
 				HttpParams httpParameters = new BasicHttpParams();
 				HttpClient client = new DefaultHttpClient(httpParameters);
 				
-				String host = "http://61.19.22.103/ws/adduser.php";
+				String host = "http://epid.plkhealth.go.th/ws/adduser.php";
 				String url = host+"?user="+params[0]+"&regID="+ params[1];
 
 				HttpGet request = new HttpGet(url);
